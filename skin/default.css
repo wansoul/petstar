@@ -1,0 +1,261 @@
+/*
+#1 = 35A49C
+#2 = 79CDC0
+*/
+a {
+	color: #35A49C;
+}
+a:hover {
+	color: #79CDC0;
+}
+
+/* menu */
+.nav>li>a:hover {
+	color: #79CDC0;
+}
+
+.navbar .navbar-nav > .active > a {
+	color: #79CDC0;
+}
+
+/* flexslider */
+.flex-control-paging li a {
+	background: #35A49C;
+}
+
+.flex-direction-nav a:hover{
+	background-color:#35A49C;
+}
+
+.testimonial span.author a {
+	color: #79CDC0;
+}
+
+/* --- icon box hover --- */
+.hi-icon-effect-5 .hi-icon {
+	color: #35A49C;
+	box-shadow: 0 0 0 4px #35A49C;
+}
+.no-touch .hi-icon-effect-5 .hi-icon:hover {
+	background: #35A49C;
+	box-shadow: 0 0 0 8px  #79CDC0;
+}
+
+
+/* portfolio */
+.portfolio-item .portfolio-desc {
+	background: #35A49C;
+}
+
+/* btn */
+.btn-theme {
+  background: #79CDC0;
+}
+.btn-theme:hover,.btn-theme:focus,.btn-theme:active{
+  background: #35A49C;
+}
+.btn-cta,.btn-cta.btn-lg {
+  background: #35A49C;
+  border-color: #79CDC0;
+}
+
+.btn-cta:focus,.btn-cta:active{
+   border-color: #35A49C;
+}
+
+/* contact */
+.validation {
+	color:#35A49C;
+}
+
+/* footer */
+.social-circle li a {
+	background:#35A49C;
+}
+
+a.scrollup{
+	background:#F16621;
+}
+
+
+
+
+/*########################################
+PetStar - customization
+########################################*/
+
+*{ font-family: helveticaNeue;}
+a:hover {color: #F16621;}
+
+/* GENERAL */
+section.featured, #section-features, #section-app,
+#section-testimonials, #section-contact{
+	height: 100vh; min-height: 600px;
+	background-color: #efefef;
+}
+
+.section-header h2.section-heading {
+	text-transform: none;
+	font-weight: 200;
+	font-family: "helveticaNeue-thin";
+	margin-top: 24px;
+	color: #253B7E;
+	margin-bottom: 32px;
+}
+
+.section-header h2.section-heading ~ p {
+	font-family: "helveticaNeue-thin";
+	font-size: 20px;
+	line-height: 150%;
+}
+
+h4{
+	font-family: "helveticaNeue-thin";
+	color: #F16621;
+	font-size: 22px;
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+h4 ~ p{
+	color: #324052;
+}
+
+h4.white, h4.white ~ p{
+	color: #324052;
+}
+
+
+
+/* TOPBAR & NAVIGATION */
+
+.navbar-brand{height: auto;}
+.navbar-nav{padding-top: 5px;}
+
+h1 a.navbar-brand{
+	font-size: 20px;
+	font-weight: 200;
+	padding-left: 38px;
+	background: url(../img/topbar-icon.svg) left center no-repeat;
+}
+.nav>li>a{
+	line-height: auto;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: .05em;
+	text-transform: none;
+}
+.nav>li>a:hover {color: #F16621;}
+.navbar .navbar-nav > .active > a { color: #F16621; }
+
+
+/* HEADER */
+
+section.featured {
+	padding: 180px 0 60px;
+  background: url(../img/topBanner-bgImage.png) center no-repeat;
+	background-size: cover;
+  color: #fdfdfd;
+}
+
+
+section.featured h2.slogan{
+		background: url(../img/logo-topBanner.svg) center center no-repeat;
+		height: 180px;
+		text-indent: -10000px;
+		margin-bottom: 48px;
+}
+
+section.featured h2.slogan ~ p{
+	font-size: 26px;
+	font-weight: 100;
+	margin-bottom: 64px;
+	font-family: "helveticaNeue-thin";
+}
+
+a.baixarApp_btn{
+	color: #ECDBD3;
+	font-family: "helveticaNeue-thin";
+	font-size: 28px;
+	font-weight: 100;
+	padding: 10px 80px;
+	background-color: #1E3066;
+	background-image: none;
+	box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.50);
+	border-radius: 8px;
+}
+a.baixarApp_btn:hover{
+	background-image: linear-gradient(-180deg, #263E85 0%, #1E3066 100%);
+}
+
+
+/* section-app */
+#section-app{
+	background: url(../img/screens-bg.png) center no-repeat;
+	background-size: cover;
+	min-height: 760px;
+}
+
+#section-app .section-header h2.section-heading{
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: -16px;
+}
+#section-app .section-header h2.section-heading ~ p {
+	color: #efefef;
+}
+#section-app h4{ color: #ffffff;}
+
+.phoneImage{ height: 400px; }
+
+.store-btn{
+	display: block;
+	margin-top: 24px;
+	opacity: 0.75;
+}
+.store-btn:hover{
+	opacity: 1;
+}
+
+
+
+
+/* section-testimonials */
+#section-testimonials .section-header h2.section-heading ~ p {
+	color: #F16621;
+}
+
+
+
+/* section-contact */
+#section-contact{
+	background: url(../img/contact-bg.png) center no-repeat;
+	background-size: cover;
+}
+
+#section-contact .section-header h2.section-heading{
+	color: #ffffff;
+}
+#section-contact .section-header h2.section-heading ~ p {
+	color: #F16621;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

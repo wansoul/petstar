@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>social-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="36.0506329" height="36" rx="4.5"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="social-facebook">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M0,35.9786842 L19.1877913,35.9786842 L19.1877913,22.0808684 L14.4972561,22.0808684 L14.4972561,16.4073947 L19.1877913,16.4073947 L19.1877913,11.6426842 C19.1877913,8.17744737 22.0008474,5.36834211 25.470958,5.36834211 L30.3745556,5.36834211 L30.3745556,10.4700789 L26.8657855,10.4700789 C25.7631579,10.4700789 24.8692445,11.3627368 24.8692445,12.4638158 L24.8692445,16.4074737 L30.2864055,16.4074737 L29.5377224,22.0809474 L24.8692445,22.0809474 L24.8692445,35.9786842 L36.0292871,35.9786842 L36.0292871,0 L0,0 L0,35.9786842 Z" id="facebook" fill="#3A559F" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

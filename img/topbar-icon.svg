@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>topbar-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="60.525012%" cy="39.9496924%" fx="60.525012%" fy="39.9496924%" r="58.5909982%" id="radialGradient-1">
+            <stop stop-color="#F39529" offset="0%"></stop>
+            <stop stop-color="#F16621" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="topbar-icon">
+            <g>
+                <rect id="Background" fill="url(#radialGradient-1)" x="0" y="0" width="28" height="28" rx="2.734375"></rect>
+                <path d="M18.3658537,5.61111111 C16.6001056,3.87730967 14.4352343,3 11.8902439,3 C10.5822945,3 9.32349593,3.28650579 8.10365854,3.83333333 C6.8763784,4.4321964 5.86491409,5.2039163 5.08536585,6.16666667 C3.69020843,7.8458223 3,10.0239647 3,12.7222222 L3,28 L9.69512195,28 L9.69512195,15.1666667 L7.82926829,16.5555556 L8.59756098,13.4444444 L6.34756098,11.4444444 L9.20121951,11.2777778 L10.1890244,8.27777778 L11.2317073,11.2777778 L14.0853659,11.3888889 L11.8353659,13.4444444 L12.6036585,16.5555556 L10.6829268,15.1111111 C10.6935867,15.110565 10.6935867,19.9472417 10.6829268,21.0555556 C11.3318369,21.1255238 11.825522,21.1537919 12.1646341,21.1666667 C14.5647201,21.1537919 16.6294448,20.2585237 18.3658537,18.4444444 C20.1235943,16.6659771 21,14.5295718 21,12.0555556 C21,9.51663496 20.1176937,7.37440969 18.3658537,5.61111111" id="P-icon" fill="#FEFEFE"></path>
+            </g>
+        </g>
+    </g>
+</svg>
