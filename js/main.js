@@ -16,38 +16,6 @@
 	jQuery('.navbar').localScroll({hash:true, offset: {top: 0},duration: 800, easing:'easeInOutExpo'});
 
 
-	// portfolio
-    if($('.isotopeWrapper').length){
-
-        var $container = $('.isotopeWrapper');
-        var $resize = $('.isotopeWrapper').attr('id');
-        // initialize isotope
-
-        $container.isotope({
-            itemSelector: '.isotopeItem',
-            resizable: false, // disable normal resizing
-            masonry: {
-                columnWidth: $container.width() / $resize
-            }
-
-
-
-        });
-
-
-        $(window).smartresize(function(){
-            $container.isotope({
-                // update columnWidth to a percentage of container width
-                masonry: {
-                    columnWidth: $container.width() / $resize
-                }
-            });
-        });
-
-
-}
-
-
 	// fancybox
 	jQuery(".fancybox").fancybox();
 
@@ -70,7 +38,6 @@
 				}
 			});
 	}
-
 
 
 	//scroll menu

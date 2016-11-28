@@ -80,17 +80,37 @@ a.scrollup{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*########################################
+##########################################
 PetStar - customization
+##########################################
 ########################################*/
 
 *{ font-family: helveticaNeue;}
 a:hover {color: #F16621;}
 
-/* GENERAL */
+
+/*########################################
+	GENERAL
+########################################*/
 section.featured, #section-features, #section-app,
 #section-testimonials, #section-contact{
-	height: 100vh; min-height: 600px;
+	min-height: 100vh;
 	background-color: #efefef;
 }
 
@@ -127,7 +147,9 @@ h4.white, h4.white ~ p{
 
 
 
-/* TOPBAR & NAVIGATION */
+/*########################################
+	TOPBAR & NAVIGATION
+########################################*/
 
 .navbar-brand{height: auto;}
 .navbar-nav{padding-top: 5px;}
@@ -148,8 +170,9 @@ h1 a.navbar-brand{
 .nav>li>a:hover {color: #F16621;}
 .navbar .navbar-nav > .active > a { color: #F16621; }
 
-
-/* HEADER */
+/*########################################
+	HEADER
+########################################*/
 
 section.featured {
 	padding: 180px 0 60px;
@@ -189,7 +212,9 @@ a.baixarApp_btn:hover{
 }
 
 
-/* section-app */
+/*########################################
+	section-app
+########################################*/
 #section-app{
 	background: url(../img/screens-bg.png) center no-repeat;
 	background-size: cover;
@@ -220,14 +245,45 @@ a.baixarApp_btn:hover{
 
 
 
-/* section-testimonials */
+/*########################################
+	section-testimonials
+########################################*/
 #section-testimonials .section-header h2.section-heading ~ p {
 	color: #F16621;
 }
 
+.testimonial_item img{
+	margin-right: 12px;
+	display: block;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	border-radius: 50%;
+}
+
+.testimonial_item h4{
+	font-family: HelveticaNeue;
+	font-size: 20px;
+	color: #0076FF;
+	margin-bottom: 8px;
+}
+.testimonial_item h5{
+	font-family: HelveticaNeue;
+	font-weight: 300;
+	font-size: 14px;
+	color: #253B7E;
+	margin-bottom: 5px;
+}
+.testimonial_item p{
+	opacity: 0.7;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	color: #324052;
+}
 
 
-/* section-contact */
+
+/*########################################
+	section-contact
+########################################*/
 #section-contact{
 	background: url(../img/contact-bg.png) center no-repeat;
 	background-size: cover;
@@ -237,7 +293,129 @@ a.baixarApp_btn:hover{
 	color: #ffffff;
 }
 #section-contact .section-header h2.section-heading ~ p {
+	font-family: helveticaNeue-light;
 	color: #F16621;
+}
+
+
+
+/* Contact form */
+.form-group {
+  margin-bottom: 10px;
+}
+
+form.contactForm label{
+	opacity: 0.7;
+	font-family: HelveticaNeue-light;
+	font-weight: 300;
+	font-size: 14px;
+	color: #ECDBD3;
+	margin-bottom: 2px;
+}
+
+#contact-form input[type=text], #contact-form input[type=email], .contactForm textarea, #contact-form select {
+	background: rgba(236, 219, 211, 1);
+	border: 1px solid rgba(241, 102, 33, 0.3);
+	border-radius: 6px;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	color: rgba(37,59,126,1);
+}
+#contact-form input[type=text], #contact-form input[type=email], #contact-form select{
+	height: 42px;
+	margin-bottom: 0px;
+}
+#contact-form input[type=text]:focus, #contact-form input[type=email]:focus, .contactForm textarea:focus{
+	border: 1px solid rgba(241, 102, 33, 1);
+	background: rgb(245, 243, 242);
+	color: rgba(37,59,126,1);
+}
+
+#contact-form textarea{
+	height: 200px;
+}
+
+.btn_container {
+	width: 100%; text-align: center;
+}
+#contact-form .btn{
+	background: #F16621;
+	border: 1px solid #6B6B6B;
+	border-radius: 8px;
+	font-family: HelveticaNeue-light;
+	font-weight: 400;
+	font-size: 19px;
+	color: #F0F0F0;
+	padding: 8px 90px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+
+.validation {
+    color: #F16621;
+		margin: 0;
+}
+
+
+/*########################################
+	section-login
+########################################*/
+#section-login{
+	background-color: #efefef;
+}
+
+#section-login .section-header h2.section-heading ~ p {
+    color: #F16621;
+}
+
+#login_form{ margin-top: 24px;}
+
+#login_form input[type=text] {
+	background: rgba(236, 219, 211, 1);
+	border: 1px solid rgba(241, 102, 33, 0.3);
+	border-radius: 6px;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	color: rgba(37,59,126,1);
+	padding: 6px 10px;
+	width: 100%;
+	height: 42px;
+}
+
+#login_form input[type=text]:focus{
+	border: 1px solid rgba(241, 102, 33, 1);
+	background: rgb(245, 243, 242);
+	color: rgba(37,59,126,1);
+}
+
+#login_form .btn{
+	background: #F16621;
+	border: 1px solid #6B6B6B;
+	border-radius: 8px;
+	font-family: HelveticaNeue-light;
+	font-weight: 400;
+	font-size: 19px;
+	color: #F0F0F0;
+	height: 42px;
+	width: 100%;
+}
+
+
+/*########################################
+	section-footer
+########################################*/
+#section-footer{
+	background-color: #161926;
+	padding: 42px 0 24px 0;
+	font-family: HelveticaNeue;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 150%;
+}
+
+#section-footer img{
+	margin-right: 10px;
 }
 
 
@@ -250,10 +428,24 @@ a.baixarApp_btn:hover{
 
 
 
+/* ========================================
+Media queries
+========================================= */
+@media (min-width: 959px) and (max-width: 1199px) {
 
+}
 
+@media only screen and (min-device-width : 979px) and (max-device-width : 1024px)  {
 
+}
 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
 
 
 
