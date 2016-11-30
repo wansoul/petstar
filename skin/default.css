@@ -501,7 +501,7 @@ SMALL DEVICES
 	.navbar-collapse.in{
 		max-height: 100vh;
 	}
-	
+
 	.navbar .navbar-collapse ul.nav li {
     border-bottom: 1px solid #444;
 	}
@@ -531,6 +531,8 @@ SMALL DEVICES
 		margin-bottom: 18px;
 		width: 94%;
 	}
+
+	#contact-form .btn{ width: 100%; }
 
 	.footer_store_btn{
 		width: 33vw;
