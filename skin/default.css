@@ -477,9 +477,8 @@ SMALL DEVICES
 @media (max-width: 767px) {
 
 	.navbar.navbar-fixed-top{
-		background-color: rgba(0,0,0,0.5);
+		background-color: rgba(0,0,0,0.70);
 		height: 70px;
-
 	}
 
 	h1 a.navbar-brand{
@@ -499,6 +498,10 @@ SMALL DEVICES
 	.navbar .navbar-collapse ul.nav{
 		background-color: rgba(0,0,0,0.8);
 	}
+	.navbar-collapse.in{
+		max-height: 100vh;
+	}
+	
 	.navbar .navbar-collapse ul.nav li {
     border-bottom: 1px solid #444;
 	}
