@@ -154,6 +154,7 @@ h4.white, h4.white ~ p{
 .navbar-brand{height: auto;}
 .navbar-nav{padding-top: 5px;}
 
+
 h1 a.navbar-brand{
 	font-size: 20px;
 	font-weight: 200;
@@ -428,8 +429,8 @@ form.contactForm label{
 
 
 
-
 /* ========================================
+RESPONSIVE
 Media queries
 ========================================= */
 @media (min-width: 959px) and (max-width: 1199px) {
@@ -487,8 +488,34 @@ SMALL DEVICES
 	}
 
 	.navbar-toggle{
-		height: 90px;
+		height: 84px;
 		margin-top: -15px;
+	}
+
+	.navbar-collapse{
+		padding: 0;
+		margin-top: 0;
+	}
+	.navbar .navbar-collapse ul.nav{
+		background-color: rgba(0,0,0,0.8);
+	}
+	.navbar .navbar-collapse ul.nav li {
+    border-bottom: 1px solid #444;
+	}
+	.navbar .navbar-collapse ul.nav li:last-child {
+	  border-bottom: 4px solid #ff7701;
+	}
+
+	.navbar .navbar-collapse ul.nav li > a{
+		line-height: 180%;
+		display: block;
+		text-align: left;
+	}
+	.navbar .navbar-collapse ul.nav li.active > a{
+		padding-bottom: 10px;
+		display: block;
+		background-color: rgba(255, 119, 1, 0.8);
+		color: #ffffff;
 	}
 
 	.phoneImage{
